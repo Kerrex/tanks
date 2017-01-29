@@ -1,0 +1,11 @@
+canvas {
+	border-style: solid;
+	border-width: 2px;
+	position: relative;
+	left: 50px;
+}
+
+#lastlog {
+	position: absolute;
+	left: 600px;
+}
