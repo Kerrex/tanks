@@ -1,0 +1,37 @@
+extends Node2D
+
+const WIDTH = 480
+const HEIGHT = 480
+
+const TYPE_SPRITE = 0
+const TYPE_BULLET = 1
+const TYPE_CANNONBALL = 2
+const TYPE_ALPHA = 3
+const TYPE_LAMBDA = 4
+const TYPE_OBSTACLE = 5
+
+const TURRET_MONO = 0
+const TURRET_SOLI = 1
+const TURRET_DUO = 2
+const TURRET_OMNI = 3
+const TURRET_WIDER = 4
+const TURRET_BECKY = 5
+
+const MSGID_REGISTER = 1
+const MSGID_REGISTER_ACK = 2
+const MSGID_UPDATE = 3
+const MSGID_ACTION = 4
+
+const ACTID_MOTOR_ON = 1
+const ACTID_MOTOR_OFF = 2
+const ACTID_BRAKE_ON = 3
+const ACTID_BRAKE_OFF = 4
+const ACTID_FIRE_ON = 5
+const ACTID_FIRE_OFF = 6
+const ACTID_ROTATE_CL = 7
+const ACTID_ROTATE_CC = 8
+const ACTID_ROTATE_STOP = 9
+
+const STATUS_NOK = 0
+const STATUS_OK = 1
+
