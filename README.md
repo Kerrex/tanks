@@ -10,3 +10,4 @@ The game is not finished and probably will never be. It lacks many features, the
 * support for multiple browsers - currently only Mozilla Firefox is supported.
 
 The websocket server was written using Python and [Tornado](http://www.tornadoweb.org/en/stable/). The client uses HTML5, CSS and JavaScript.
+Native client was written in [Godot Engine](https://godotengine.org/)
